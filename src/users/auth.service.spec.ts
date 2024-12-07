@@ -17,7 +17,7 @@ describe('AuthService HEHEHE', () => {
     fakeUsersService = {
       // partial: if this object is define any property of that Class, it has to define correctly
       find: (email: string) => {
-        const filteredUsers = users.filter(user => user.email === email);
+        const filteredUsers = users.filter((user) => user.email === email);
         return Promise.resolve(filteredUsers);
       },
       create: (email: string, password: string) => {
