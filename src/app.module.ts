@@ -7,8 +7,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from './users/user.entity';
 import { Report } from './reports/report.entity';
 import { APP_PIPE } from '@nestjs/core';
-import { ConfigModule, ConfigService } from "@nestjs/config";
-import * as process from "node:process";
+import { ConfigModule, ConfigService } from '@nestjs/config';
+import * as process from 'node:process';
 const cookiesSession = require('cookie-session');
 
 @Module({
