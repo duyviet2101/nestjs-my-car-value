@@ -9,6 +9,7 @@ import { Report } from './reports/report.entity';
 import { APP_PIPE } from '@nestjs/core';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import * as process from 'node:process';
+// eslint-disable-next-line @typescript-eslint/no-require-imports
 const cookiesSession = require('cookie-session');
 
 @Module({
